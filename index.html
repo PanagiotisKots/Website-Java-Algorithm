@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Graph Visualization</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Small box in the top left corner -->
+  <div id="info-box">
+    Graph is just a visual, not accurately representing the algorithm.
+  </div>
+
+  <div id="graph-container">
+    <svg id="graph" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg"></svg>
+  </div>
+
+  <!-- Log Box for algorithm output -->
+  <div id="log-box">
+    <h3>Algorithm Log:</h3>
+    <pre id="log-output"></pre>
+  </div>
+
+  <div id="controls">
+    <button id="startButton">Start Animation</button>
+    <button id="restartButton">Restart</button>
+    <button id="autoButton">Automate</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
